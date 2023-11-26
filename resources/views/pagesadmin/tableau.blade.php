@@ -30,11 +30,11 @@
                             <div class="col">
                                 <div class="card">
                                     <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/xulniijg.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
+                                        <lord-icon src="https://cdn.lordicon.com/dklbhvrt.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
                                         <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Business Development</h5>
+                                            <h5 class="mt-4">Mon profil</h5>
                                         </a>
-                                        <p class="text-muted mb-0">102 Position</p>
+                                        <p class="text-muted mb-0">0</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,64 +43,9 @@
                                     <div class="card-body text-center py-4">
                                         <lord-icon src="https://cdn.lordicon.com/oclwxpmm.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
                                         <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Automotive Jobs</h5>
+                                            <h5 class="mt-4">Modifier mon profil</h5>
                                         </a>
-                                        <p class="text-muted mb-0">64 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/dklbhvrt.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Construction / Facilities</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">35 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/adwosptt.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Design, Art & Multimedia</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">49 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/kkcllwsu.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Healthcare</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">97 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/rahcoaeu.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Sales & Marketing</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">312 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/smauprql.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Accounting / Finance</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">62 Position</p>
+                                        <p class="text-muted mb-0">0</p>
                                     </div>
                                 </div>
                             </div>
@@ -109,20 +54,9 @@
                                     <div class="card-body text-center py-4">
                                         <lord-icon src="https://cdn.lordicon.com/itykargr.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
                                         <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Project Management</h5>
+                                            <h5 class="mt-4">Mes messages</h5>
                                         </a>
-                                        <p class="text-muted mb-0">35 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/cnyeuzxc.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Costomer Services</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">35 Position</p>
+                                        <p class="text-muted mb-0">0</p>
                                     </div>
                                 </div>
                             </div>
@@ -131,53 +65,9 @@
                                     <div class="card-body text-center py-4">
                                         <lord-icon src="https://cdn.lordicon.com/sygggnra.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
                                         <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Content Writer</h5>
+                                            <h5 class="mt-4">Faire une annonce</h5>
                                         </a>
-                                        <p class="text-muted mb-0">746 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/hfmdczge.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Government Jobs</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">642 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/xhebrhsj.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Digital Marketing</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">364 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/ucvsemjq.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Education & training</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">35 Position</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center py-4">
-                                        <lord-icon src="https://cdn.lordicon.com/pvbjsfif.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
-                                        <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">IT & Software</h5>
-                                        </a>
-                                        <p class="text-muted mb-0">35 Position</p>
+                                        <p class="text-muted mb-0">0</p>
                                     </div>
                                 </div>
                             </div>
@@ -186,9 +76,64 @@
                                     <div class="card-body text-center py-4">
                                         <lord-icon src="https://cdn.lordicon.com/auvicynv.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
                                         <a href="#!" class="stretched-link">
-                                            <h5 class="mt-4">Catering & Tourism</h5>
+                                            <h5 class="mt-4">Rechercher un troc</h5>
                                         </a>
-                                        <p class="text-muted mb-0">35 Position</p>
+                                        <p class="text-muted mb-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body text-center py-4">
+                                        <lord-icon src="https://cdn.lordicon.com/xulniijg.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="mt-4">Utilisateurs inscrits</h5>
+                                        </a>
+                                        <p class="text-muted mb-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body text-center py-4">
+                                        <lord-icon src="https://cdn.lordicon.com/rahcoaeu.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="mt-4">Trocs conclus</h5>
+                                        </a>
+                                        <p class="text-muted mb-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body text-center py-4">
+                                        <lord-icon src="https://cdn.lordicon.com/cnyeuzxc.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="mt-4">Service Client</h5>
+                                        </a>
+                                        <p class="text-muted mb-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body text-center py-4">
+                                        <lord-icon src="https://cdn.lordicon.com/xhebrhsj.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="mt-4">Changer de thème</h5>
+                                        </a>
+                                        <p class="text-muted mb-0">0</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body text-center py-4">
+                                        <lord-icon src="https://cdn.lordicon.com/pvbjsfif.json" trigger="hover" colors="primary:#405189" target="div" style="width:50px;height:50px"></lord-icon>
+                                        <a href="#!" class="stretched-link">
+                                            <h5 class="mt-4">Suggestions</h5>
+                                        </a>
+                                        <p class="text-muted mb-0">0</p>
                                     </div>
                                 </div>
                             </div>

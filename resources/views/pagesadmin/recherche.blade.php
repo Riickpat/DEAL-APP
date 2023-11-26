@@ -16,7 +16,7 @@
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Pages</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Tableau de bord</a></li>
                                         <li class="breadcrumb-item active">Je recherche</li>
                                     </ol>
                                 </div>
@@ -79,7 +79,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-1.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -105,7 +105,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-2.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -132,14 +132,13 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project development" data-category="development">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-3.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
                                                                 </div>
                                                             </a>
                                                         </div>
-
                                                         <div class="box-content">
                                                             <div class="d-flex align-items-center mt-1">
                                                                 <div class="flex-grow-1 text-muted"><i class="ri-checkbox-blank-circle-fill text-muted align-bottom me-1"></i><a class="text-body text-truncate">Type de troc</a></div>
@@ -158,8 +157,8 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing" data-category="project designing">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
-                                                                <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-4.jpg" alt="" />
+                                                            <a href="{{route('details-produit')}}" title="">
+                                                                <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-4.jpg" alt=""/>
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
                                                                 </div>
@@ -185,7 +184,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing" data-category="project designing">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-5.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -210,7 +209,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-6.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -236,7 +235,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-7.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -262,7 +261,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-8.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -289,7 +288,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-9.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -316,7 +315,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing" data-category="project designing">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-10.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -342,7 +341,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-11.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -370,7 +369,7 @@
                                                 <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                                     <div class="gallery-box card">
                                                         <div class="gallery-container">
-                                                            <a href="apps-ecommerce-product-details.html" title="">
+                                                            <a href="{{route('details-produit')}}" title="">
                                                                 <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-12.jpg" alt="" />
                                                                 <div class="gallery-overlay">
                                                                     <h5 class="overlay-caption" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block;">Nom du produit</h5>
@@ -444,5 +443,5 @@
             </footer>
         </div>
         <!-- end main content-->
-        
+
 @endsection

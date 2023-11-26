@@ -36,7 +36,7 @@
                 <div class="d-flex">
                     <!-- LOGO -->
                     <div class="navbar-brand-box horizontal-logo">
-                        <a href="apps-job-categories.html" class="logo logo-dark">
+                        <a href="{{route('home')}}" class="logo logo-dark">
                             <span class="logo-sm">
                                 <img src="assets/images/logo-sm.png" alt="" height="22">
                             </span>
@@ -45,7 +45,7 @@
                             </span>
                         </a>
 
-                        <a href="apps-job-categories.html" class="logo logo-light">
+                        <a href="{{route('home')}}" class="logo logo-light">
                             <span class="logo-sm">
                                 <img src="assets/images/logo-sm.png" alt="" height="22">
                             </span>
@@ -65,11 +65,6 @@
 
                     <!-- App Search-->
                     <form class="app-search d-none d-md-block">
-                        <div class="position-relative">
-                            <input type="text" class="form-control" placeholder="Search..." autocomplete="off" id="search-options" value="">
-                            <span class="mdi mdi-magnify search-widget-icon"></span>
-                            <span class="mdi mdi-close-circle search-widget-icon search-widget-icon-close d-none" id="search-close-options"></span>
-                        </div>
                         <div class="dropdown-menu dropdown-menu-lg" id="search-dropdown">
                             <div data-simplebar style="max-height: 320px;">
                                 <!-- item-->
@@ -78,8 +73,8 @@
                                 </div>
 
                                 <div class="dropdown-item bg-transparent text-wrap">
-                                    <a href="apps-job-categories.html" class="btn btn-soft-secondary btn-sm btn-rounded">Comment configurer <i class="mdi mdi-magnify ms-1"></i></a>
-                                    <a href="apps-job-categories.html" class="btn btn-soft-secondary btn-sm btn-rounded">boutons <i class="mdi mdi-magnify ms-1"></i></a>
+                                    <a href="{{route('home')}}" class="btn btn-soft-secondary btn-sm btn-rounded">Comment configurer <i class="mdi mdi-magnify ms-1"></i></a>
+                                    <a href="{{route('home')}}" class="btn btn-soft-secondary btn-sm btn-rounded">boutons <i class="mdi mdi-magnify ms-1"></i></a>
                                 </div>
                                 <!-- item-->
                                 <div class="dropdown-header mt-2">
@@ -144,7 +139,7 @@
                             </div>
 
                             <div class="text-center pt-3 pb-1">
-                                <a href="pages-search-results.html" class="btn btn-primary btn-sm">Afficher tous les résultats <i class="ri-arrow-right-line ms-1"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm">Afficher tous les résultats <i class="ri-arrow-right-line ms-1"></i></a>
                             </div>
                         </div>
                     </form>
@@ -462,8 +457,8 @@
                                         </div>
 
                                         <div class="my-3 text-center view-all">
-                                            <button type="button" class="btn btn-soft-success waves-effect waves-light">View
-                                                All Messages <i class="ri-arrow-right-line align-middle"></i></button>
+                                            <button type="button" class="btn btn-soft-success waves-effect waves-light">Lire tous les messages
+                                                 <i class="ri-arrow-right-line align-middle"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -491,11 +486,11 @@
                         <div class="dropdown-menu dropdown-menu-end">
                             <!-- item-->
                             <h6 class="dropdown-header">Bienvenue Monsieur X!</h6>
-                            <a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Profil</span></a>
-                            <a class="dropdown-item" href="apps-chat.html"><i class="mdi mdi-message-text-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Messages</span></a>
+                            <a class="dropdown-item" href="{{route('mon-profil')}}"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Profil</span></a>
+                            <a class="dropdown-item" href="{{route('user-mailbox')}}"><i class="mdi mdi-message-text-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Messages</span></a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="pages-profile-settings.html"><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Modifier profil</span></a>
-                            <a class="dropdown-item" href="auth-logout-basic.html"><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Se déconnecter</span></a>
+                            <a class="dropdown-item" href="{{route('edit-profil')}}"><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Modifier profil</span></a>
+                            <a class="dropdown-item" href="#"><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Se déconnecter</span></a>
                         </div>
                     </div>
                 </div>
@@ -536,7 +531,7 @@
             <!-- LOGO -->
             <div class="navbar-brand-box">
                 <!-- Dark Logo-->
-                <a href="apps-job-categories.html" class="logo logo-dark">
+                <a href="{{route('home')}}" class="logo logo-dark">
                     <span class="logo-sm">
                         <img src="assets/images/logo-sm.png" alt="" height="22">
                     </span>
@@ -545,7 +540,7 @@
                     </span>
                 </a>
                 <!-- Light Logo-->
-                <a href="apps-job-categories.html" class="logo logo-light">
+                <a href="{{route('home')}}" class="logo logo-light">
                     <span class="logo-sm">
                         <img src="assets/images/logo-sm.png" alt="" height="22">
                     </span>
@@ -567,14 +562,14 @@
                         <li class="menu-title"><span data-key="t-menu">Menu</span></li>
 
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="apps-job-categories.html" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
+                            <a class="nav-link menu-link" href="{{route('home')}}" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
                                 <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards">TABLEAU DE BORD</span>
                             </a>
                         </li>
                         <!-- end Dashboard -->
 
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="apps-mailbox.html" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
+                            <a class="nav-link menu-link" href="{{route('user-mailbox')}}" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
                                 <i class="ri-discuss-line"></i> <span data-key="t-dashboards">MESSAGERIE</span>
                             </a>
                         </li>
@@ -586,12 +581,12 @@
                             <div class="collapse menu-dropdown" id="sidebarEcommerce">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="pages-gallery.html" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignIn" data-key="t-signin">
+                                        <a href="{{route('search-troc')}}" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignIn" data-key="t-signin">
                                              Je recherche
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="apps-ecommerce-add-product.html" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignUp" data-key="t-signup">
+                                        <a href="{{route('add-troc')}}" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignUp" data-key="t-signup">
                                              Je propose
                                         </a>
                                     </li>
@@ -606,13 +601,8 @@
                             <div class="collapse menu-dropdown" id="sidebarCRM">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="pages-profile.html" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignUp" data-key="t-signup">
+                                        <a href="{{route('mon-profil')}}" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignUp" data-key="t-signup">
                                              Mon profil
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="apps-ecommerce-seller-details.html" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignUp" data-key="t-signup">
-                                             Détails utilisateur
                                         </a>
                                     </li>
                                 </ul>
@@ -626,7 +616,7 @@
                             <div class="collapse menu-dropdown" id="sidebarApps">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="apps-crypto-kyc.html" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarCrypto" data-key="t-crypto">
+                                        <a href="{{route('premium-page')}}" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarCrypto" data-key="t-crypto">
                                              Vérification d'identité & Garantie
                                         </a>
                                     </li>
@@ -644,12 +634,12 @@
                             <div class="collapse menu-dropdown" id="sidebarAuth">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="auth-signin-cover.html" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignIn" data-key="t-signin">
+                                        <a href="{{route('login-page')}}" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignIn" data-key="t-signin">
                                              CONNEXION
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="auth-signup-cover.html" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignUp" data-key="t-signup">
+                                        <a href="{{route('register-page')}}" class="nav-link" role="button" aria-expanded="false" aria-controls="sidebarSignUp" data-key="t-signup">
                                              INSCRIPTION
                                         </a>
                                     </li>
@@ -661,12 +651,12 @@
                 </div>
                 <!-- Sidebar -->
             </div>
+
             <div class="sidebar-background"></div>
         </div>
         <!-- Left Sidebar End -->
         <!-- Vertical Overlay-->
         <div class="vertical-overlay"></div>
-
 
     </div>
     <!-- END layout-wrapper -->
@@ -1425,7 +1415,7 @@
                     <button type="button" class="btn btn-light w-100" id="reset-layout">Reset</button>
                 </div>
                 <div class="col-6">
-                    <a href="https://1.envato.market/velzon-admin" target="_blank" class="btn btn-primary w-100">Buy Now</a>
+                    <a href="#" target="_blank" class="btn btn-primary w-100">Buy Now</a>
                 </div>
             </div>
         </div>
@@ -1438,22 +1428,18 @@
     <script src="assets/libs/feather-icons/feather.min.js"></script>
     <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
     <script src="assets/js/plugins.js"></script>
-
     <!-- apexcharts -->
     <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
-
     <!-- Vector map-->
     <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
     <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
-
     <!--Swiper slider js-->
     <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
-
     <!-- Dashboard init -->
     <script src="assets/js/pages/dashboard-ecommerce.init.js"></script>
-
     <!-- App js -->
     <script src="assets/js/app.js"></script>
+    <!-- lordicon js -->
 </body>
 
 

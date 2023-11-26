@@ -21,4 +21,19 @@ class adminController extends Controller
     public function modifierprofil(){
         return view ('pagesadmin.editprofil');
     }
+    public function viewprofil(){
+        return view ('pagesadmin.monprofil');
+    }
+    public function paiement(){
+        return view ('pagesadmin.premium');
+    }
+    public function login(){
+        return view ('pagesadmin.login');
+    }
+    public function register(){
+        return view ('pagesadmin.register');
+    }
+    public function viewprod(){
+        return view ('pagesadmin.detailsproduit');
+    }
 }
